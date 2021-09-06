@@ -1,0 +1,53 @@
+*{margin: 0;padding: 0;}
+.backdivcold1{
+    width: 100%;
+    height: 100vh;
+    background: url("./images/cold1.PNG") no-repeat;
+    background-size: cover
+}
+.backdiv{
+    width: 100%;
+    height: 100vh;
+    background: url("./images/cold.PNG") no-repeat;
+    background-size: cover
+}
+.backdivhot{
+    width: 100%;
+    height: 100vh;
+    background: url("./images/hot.PNG") no-repeat;
+    background-size: cover
+}
+.frontdiv{
+    background: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.frontdiv input{
+    margin: 5vh 0;
+    height: 4vh;
+    border-radius: 3px;
+    text-align: center;
+    padding: 0 10px;
+    width: 200px;
+}
+.frontdiv button{
+    border-radius: 10px;
+    width: 70px;
+}
+.frontdiv button:hover{
+    background-color: rgba(15, 28, 199, 0.89);
+    color: white;
+}
+.content{
+    margin-top: 10vh;
+    font-size: 4vw;
+}
+.tempbox{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 150px;
+    height: 70px;
+    margin: 10vh auto;
+    border-radius: 5px;
+    font-size: xx-large;
+}
